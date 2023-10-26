@@ -2,6 +2,8 @@
 
 ## Overview
 
+ The app Currently has 3 screens.
+ 
 WeatherWise is a mobile app providing real-time weather updates. Built with React Native and Node.js.
 
 ## Features
