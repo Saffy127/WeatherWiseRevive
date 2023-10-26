@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#current-weather">Current Weather</a></li>
+            <li><a href="#weekly-forecast">Weekly Forecast</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- Current Weather Screen -->
+    <section id="current-weather">
+        <h1>Current Weather</h1>
+        <div>
+            <p>Location: <span id="location">GPS Location</span></p>
+            <p>Temperature: <span id="temperature">25°C</span></p>
+            <p>Condition: <span id="condition">Sunny</span></p>
+        </div>
+    </section>
+
+    <!-- Weekly Forecast Screen -->
+    <section id="weekly-forecast">
+        <h1>Weekly Forecast</h1>
+        <ul>
+            <li>Monday: 23°C - Sunny</li>
+            <li>Tuesday: 24°C - Cloudy</li>
+            <li>Wednesday: 22c</li>
+            <li>Thursday: 27c </li>
+            <li>Friday: 19c</li>
+        </ul>
+    </section>
+
+    <!-- Settings Screen -->
+    <section id="settings">
+        <h1>Settings</h1>
+        <form>
+            <label for="location-input">Change Location:</label>
+            <input type="text" id="location-input" placeholder="Enter a city">
+            <button type="submit">Update</button>
+        </form>
+        <!--Add more functionality here? -->
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+
