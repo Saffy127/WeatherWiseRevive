@@ -30,11 +30,3 @@ npm start
 - Node.js (Back-end)
 - Local storage (Database)
 
-## Contributing
-
-- Isaac: Node.js, DB
-- Others: TBD
-
-## License
-
-For educational use. Not for commercial distribution.
